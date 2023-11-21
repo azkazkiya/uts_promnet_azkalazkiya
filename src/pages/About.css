@@ -1,0 +1,56 @@
+/* src/styles/About.css */
+.aboutpage{
+  background-color: #ece3ce;
+  font-size: 20px;
+}
+.about-container {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 200px;
+  margin: 0px 0;
+  transition: background-color 0.5s, transform 0.5s, box-shadow 0.5s;
+  
+  /* padding-top: 20px; */
+}
+
+
+.about-left img {
+  max-width: 100%;
+  border-radius: 50%; /* Optional: for a rounded image */
+}
+
+
+.about-right {
+  flex: 1; /* Agar bagian deskripsi mengisi sisa ruang */
+  margin-left: 20px;
+}
+
+.about-right h2 {
+  color: #3498db; /* Warna judul */
+}
+
+.about-right p {
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.about-right h3 {
+  color: #2ecc71; /* Warna judul tambahan */
+  margin-top: 20px; /* Jarak antara judul dan kontennya */
+}
+
+.about-right ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-right li {
+  margin-bottom: 8px;
+}
+
+
+/* Style tambahan sesuai kebutuhan */

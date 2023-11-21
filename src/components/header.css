@@ -1,0 +1,43 @@
+/* src/styles/Header.css */
+.header {
+  background-color: #4F6F52; /* Warna latar belakang header */
+  color: #ECE3CE;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+nav li a {
+  text-decoration: none; 
+  color: #ECE3CE;;
+}
+nav li:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+.navbar-brand {
+  color: #ece3ce !important;
+  font-size: 1.5rem; /* Ukuran teks untuk brand */
+}
+
+.nav-link {
+  font-size: 20px;
+  color: #ece3ce !important; /* Warna teks untuk link */
+  margin-right: 15px; /* Jarak antar link */
+}
+

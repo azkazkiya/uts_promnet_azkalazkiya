@@ -1,0 +1,41 @@
+.gallerypage{
+    padding: 20px;
+    background-color: #ece3ce;
+}
+
+.gallerypage h3{
+    
+    text-align: center;
+    font-size: 50px;
+}
+
+.carousel{
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+
+.gallery-images{
+    margin-bottom: 30px;
+    margin-top: 0px;
+    display: flex;
+  justify-content: space-around;
+    
+}
+
+figure {
+    text-align: center; /* Memposisikan deskripsi di tengah */
+    margin-bottom: 20px; /* Memberikan jarak antara deskripsi dan gambar */
+  }
+.image-container {
+    position: relative;
+  }
+  
+  .hover-effect {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hover-effect:hover {
+    transform: scale(1.1); /* Ubah sesuai dengan efek yang diinginkan saat di hover */
+  }
+  

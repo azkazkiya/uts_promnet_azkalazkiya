@@ -1,0 +1,9 @@
+ /* src/styles/Contact.css */
+html, body{
+  height: 100%;
+  margin: 0;
+}
+ .customContainer{
+  margin: 0 !important;
+  padding: 50px;
+}

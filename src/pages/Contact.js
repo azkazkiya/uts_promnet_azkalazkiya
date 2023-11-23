@@ -18,7 +18,7 @@ function Contact() {
   });
 
   return (
-       <Container className="my-5 customContainer" style={{ backgroundColor: '#ece3ce', minHeight: '100vh' }}>
+       <Container className="my-5 customContainer" style={{ backgroundColor: '#FFFFFF', minHeight: '100vh' }}>
       <Row>
         <Col>
           <h2>Contact Me!</h2>
